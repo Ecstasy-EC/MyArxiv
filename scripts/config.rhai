@@ -1,6 +1,6 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
 let titles_method = ["Optimization","Mapping","Learning","SLAM", "Odometry","GPU","Parallel","Swarm","Estimation"];
-let titles_sensor = ["LiDAR", "Visual", "Camera", "Inertial"]
+let titles_sensor = ["LiDAR", "Visual", "Camera", "Inertial"];
 let titles =  titles_method + titles_type + titles_sensor;
 let authors_array = ["Davide Scaramuzza","Vijay Kumar","Luca Carlone","Wolfram Burgard","Cyrill Stachniss","Howie Choset","Ji Zhang","Nicholas Roy","Frank Dellaert","Fei Gao","Maurice Fallon","Roland Siegwart","Brendan Englot","Shaojie Shen","Jonathan P. How","Fu Zhang","John Owens"];
 
