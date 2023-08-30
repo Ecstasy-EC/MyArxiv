@@ -1,8 +1,8 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
-let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
+let titles_method = ["Optimization","Mapping","Learning","SLAM", "Odometry","GPU","Parallel","Swarm","Estimation"];
+let titles_sensor = ["LiDAR", "Visual", "Camera", "Inertial"]
+let titles =  titles_method + titles_type + titles_sensor;
+let authors_array = ["Davide Scaramuzza","Vijay Kumar","Luca Carlone","Wolfram Burgard","Cyrill Stachniss","Howie Choset","Ji Zhang","Nicholas Roy","Frank Dellaert","Fei Gao","Maurice Fallon","Roland Siegwart","Brendan Englot","Shaojie Shen","Jonathan P. How","Fu Zhang","John Owens"];
 
 let conferences = [
     // AI
@@ -22,7 +22,9 @@ let conferences = [
     // System
     "FSE/ESEC", "ICSE", "ISSTA", "OSDI", "SOSP",
     // Security
-    "ACSA", "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security"
+    "ACSA", "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security",
+    // Robotics
+    "ICRA", "IROS", "RSS"
 ];
 
 let start = conferences.shift();

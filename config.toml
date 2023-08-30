@@ -1,11 +1,11 @@
 site_title = "MyArxiv"
 limit_days = 7
-cache_url = "https://mlnlp-world.github.io/MyArxiv/cache.json"
+cache_url = "https://Ecstasy-EC.github.io/MyArxiv/cache.json"
 
 [[sources]]
-limit = 150
-category = "cs.CL"
-title = "Computation and Language"
+limit = 300
+category = "cs.RO"
+title = "Robotics"
 
 [[sources]]
 limit = 150
@@ -14,18 +14,23 @@ title = "Computer Vision and Pattern Recognition"
 
 [[sources]]
 limit = 150
-category = "cs.IR"
-title = "Information Retrieval"
+category = "cs.AI"
+title = "Artificial Intelligence"
 
 [[sources]]
 limit = 150
-category = "cs.LG"
-title = "Machine Learning"
+category = "cs.DS"
+title = "Data Structures and Algorithms"
 
 [[sources]]
 limit = 150
-category = "cs.MM"
-title = "Multimedia"
+category = "cs.DC"
+title = "Distributed, Parallel, and Cluster Computing"
+
+[[sources]]
+limit = 150
+category = "eess.SY"
+title = "Systems and Control"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
