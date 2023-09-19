@@ -2,8 +2,9 @@ let titles_type = ["Dataset", "Survey", "Review", "Overview"];
 let titles_method = ["Optimization","Mapping","Learning","SLAM", "Odometry","GPU","Parallel","Swarm","Estimation","Reinforment Learning","DRL","Exploration","Planning"];
 let titles_platform = ["Robots","Robot","UAV","UAVs","UGV","UGVs"];
 let titles_sensor = ["LiDAR", "Visual", "Vision", "Camera", "Inertial"];
-let titles =  titles_method + titles_type + titles_sensor + titles_platform;
-let authors_array = ["Davide Scaramuzza","Vijay Kumar","Luca Carlone","Wolfram Burgard","Cyrill Stachniss","Howie Choset","Ji Zhang","Nicholas Roy","Frank Dellaert","Fei Gao","Maurice Fallon","Roland Siegwart","Brendan Englot","Shaojie Shen","Jonathan P. How","Fu Zhang","John Owens"];
+let titles = titles_method + titles_type + titles_sensor + titles_platform;
+let authors_array = ["Davide Scaramuzza","Vijay Kumar","Luca Carlone","Wolfram Burgard","Cyrill Stachniss","Howie Choset","Ji Zhang","Nicholas Roy","Frank Dellaert","Fei Gao","Maurice Fallon","Roland Siegwart","Brendan Englot","Shaojie Shen","Jonathan P. How","Fu Zhang","John Owens","Guoquan Huang","Xieyuanli Chen","Lihua Xie","Peng Yin
+Peng Yin","Robert Babuska","Javier Alonso-Mora","Patric Jensfelt","Paul Newman"];
 
 let conferences = [
     // AI
