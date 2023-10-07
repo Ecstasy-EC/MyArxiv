@@ -1,5 +1,5 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_method = ["Optimization","Mapping","Safe","Safety","Certificate","Lyapunov","Learning","SLAM", "Odometry","GPU","Parallel","Swarm","Estimation","Reinforment Learning","DRL","Exploration","Planning","TSP","Hash","Gradient"，“Terrain","Representation","Navigation"];
+let titles_method = ["Optimization","Mapping","Safe","Safety","Certificate","Lyapunov","Learning","SLAM", "Odometry","GPU","Parallel","Swarm","Estimation","Reinforment Learning","DRL","Exploration","Planning","TSP","Hash","Gradient",“Terrain","Representation","Navigation"];
 let titles_platform = ["Robots","Robot","UAV","UAVs","UGV","UGVs"];
 let titles_sensor = ["LiDAR", "Visual", "Vision", "Camera", "Inertial"];
 let titles = titles_method + titles_type + titles_sensor + titles_platform;
