@@ -1,29 +1,15 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_method = ["Optimization","Mapping","Safe","Safety","Certificate","Lyapunov","Learning","SLAM", "Odometry","GPU","Parallel","Swarm","Estimation","Reinforment Learning","DRL","Exploration","Planning","TSP","Hash","Gradient","Terrain","Representation","Navigation","Multi-agent","Semantic"];
+let titles_method = ["Optimization","Mapping","Learning","SLAM", "Odometry","GPU","Parallel","Swarm","Estimation","Reinforment Learning","DRL","Exploration","Planning","Gradient","Terrain","Representation","Navigation","Multi-agent","Semantic","Scene Graph","Scene Graphs","Open-Vocabulary","Localization"];
 let titles_platform = ["Robots","Robot","UAV","UAVs","UGV","UGVs"];
-let titles_sensor = ["LiDAR", "Visual", "Vision", "Camera", "Inertial"];
+let titles_sensor = ["LiDAR", "Visual", "Vision", "Camera", "Inertial","Radar","Multi-modal","Event Camera"];
 let titles = titles_method + titles_type + titles_sensor + titles_platform;
-let authors_array = ["Davide Scaramuzza","Vijay Kumar","Luca Carlone","Wolfram Burgard","Cyrill Stachniss","Howie Choset","Ji Zhang","Nicholas Roy","Frank Dellaert","Fei Gao","Maurice Fallon","Roland Siegwart","Brendan Englot","Shaojie Shen","Jonathan P. How","Fu Zhang","John Owens","Guoquan Huang","Xieyuanli Chen","Lihua Xie","Peng Yin","Robert Babuska","Javier Alonso-Mora","Patric Jensfelt","Paul Newman","Marco Hutter","Sergey Levine","Andrew Davidson","Jonathan Gammell","Timothy D Barfoot","Paul Newman"];
+let authors_array = ["Davide Scaramuzza","Vijay Kumar","Luca Carlone","Wolfram Burgard","Cyrill Stachniss","Howie Choset","Ji Zhang","Nicholas Roy","Frank Dellaert","Fei Gao","Maurice Fallon","Roland Siegwart","Brendan Englot","Shaojie Shen","Jonathan P. How","Fu Zhang","John Owens","Guoquan Huang","Xieyuanli Chen","Lihua Xie","Peng Yin","Robert Babuska","Javier Alonso-Mora","Patric Jensfelt","Paul Newman","Marco Hutter","Marc Pollefeys","Sergey Levine","Andrew Davidson","Jonathan Gammell","Timothy D Barfoot","Paul Newman","Michael Milford","Margarita Chli","Sebestian Scherer","Johannes Bets","Yann LeCun","Kostas Alexis","Martin Magnusson","Raquel Urtasun","Timothy Barfoot","Ayoung Kim","Angela Schoellig","Francois Pomerleau","Chen Wang","Fan Shi","Yunlong Song","Marjia Popovic","Abhinav Valada","Peyman Moghadam"];
 
 let conferences = [
-    // AI
-    "AAAI", "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "ICTAI", "IJCAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",
     // CV
     "3DV", "ACCV", "ACM MM", "BMVC", "CVPR", "ECCV", "ICCV", "ICDAR", "ICIP", "ICME", "ICPR", "IEEE VIS", "MICCAI", "SIGGRAPH", "WACV",
-    // DM
-    "AKBC", "APWeb", "CIKM", "DASFAA", "ECML-PKDD", "ICDE", "ICDM", "ICDT", "KDD", "LREC", "MDM", "PAKDD", "PODS", "RecSys", "SDM", "SIGMOD", "VLDB", "WSDM", "WWW", "EDBT", "CIDR",
-    // IR
-    "ECIR", "ESWC", "ICMR", "ICTIR", "ISWC", "SIGIR",
     // ML
     "ACML", "AISTATS", "ECML", "ICLR", "ICML", "ML4H", "NeurIPS", "NIPS", "UAI",
-    // NLP
-    "AACL", "ACL", "CCL", "COLING", "COLT", "CoNLL", "EACL", "EMNLP", "ICASSP", "ICDAR", "ICONIP", "INTERSPEECH", "LREC", "NAACL", "NLPCC", "RepL4NLP", "SIGDIAL", "SemEval", "WANLP", "WASSA", "WOAH",
-    // Arch
-    "ASPLOS", "ATC", "DATE", "EuroSys", "FAST", "HPCA", "ISCA", "MICRO", "PPoPP", "SC", "SoCC",
-    // System
-    "FSE/ESEC", "ICSE", "ISSTA", "OSDI", "SOSP",
-    // Security
-    "ACSA", "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security",
     // Robotics
     "ICRA", "IROS", "RSS"
 ];
