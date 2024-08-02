@@ -17,21 +17,6 @@ limit = 150
 category = "cs.AI"
 title = "Artificial Intelligence"
 
-[[sources]]
-limit = 150
-category = "cs.DS"
-title = "Data Structures and Algorithms"
-
-[[sources]]
-limit = 150
-category = "cs.DC"
-title = "Distributed, Parallel, and Cluster Computing"
-
-[[sources]]
-limit = 150
-category = "eess.SY"
-title = "Systems and Control"
-
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
 highlight_author = "scripts/highlight_author.rhai"
